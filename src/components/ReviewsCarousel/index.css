@@ -1,0 +1,65 @@
+.bg-container {
+  background-image: url('https://img.freepik.com/free-vector/blue-curve-background_53876-113112.jpg?w=740&t=st=1684560124~exp=1684560724~hmac=e03c4facab971a68701cf75b398b70971a25ad6448865e2f594be61e538f14e9');
+  background-size: cover;
+  min-height: 100vh;
+  padding: 10px;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-size: 26px;
+  font-family: 'roboto';
+  color: black;
+  text-align: center;
+}
+.arrow {
+  height: 25px;
+  width: 25px;
+  background-color: #171f46;
+}
+.button {
+  border: 1px solid transparent;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+.reviews {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+}
+.review-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.username {
+  font-size: 15px;
+  color: #171f46;
+  font-family: 'roboto';
+  line-height: 0px;
+  font-weight: bold;
+}
+.company-name {
+  font-size: 15px;
+  color: #171f46;
+  font-family: 'roboto';
+  line-height: 0px;
+}
+.description {
+  font-size: 13px;
+  color: #171f46;
+  font-family: 'roboto';
+  text-align: center;
+}
+.user-profile {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 13px;
+}
